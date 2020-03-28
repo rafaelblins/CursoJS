@@ -6,7 +6,7 @@ num.sort()            // sort organiza em ordem
 console.log (num)
 console.log (`O vetor tem ${num.length} posições.`)    // identifa a qtd de posições
 console.log (`O primeiro valor do vetor é: ${num[0]}`)
-let pos = num.indexOf(4)
+let pos = num.indexOf(4)                               // Posição
 if (pos == -1) {
     console.log ('Esse numero não foi encontrado')
 } else {
